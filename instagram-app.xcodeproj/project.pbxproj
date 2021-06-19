@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE613392267E972F0054A6C8 /* instagram_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE613391267E972F0054A6C8 /* instagram_appApp.swift */; };
+		CE613392267E972F0054A6C8 /* instagram_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE613391267E972F0054A6C8 /* instagram_App.swift */; };
 		CE613394267E972F0054A6C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE613393267E972F0054A6C8 /* ContentView.swift */; };
 		CE613396267E973B0054A6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE613395267E973B0054A6C8 /* Assets.xcassets */; };
 		CE613399267E973B0054A6C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE613398267E973B0054A6C8 /* Preview Assets.xcassets */; };
+		CE6133A2267E98450054A6C8 /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A1267E98450054A6C8 /* HomeFeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE61338E267E972F0054A6C8 /* instagram-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE613391267E972F0054A6C8 /* instagram_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_appApp.swift; sourceTree = "<group>"; };
+		CE613391267E972F0054A6C8 /* instagram_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_App.swift; sourceTree = "<group>"; };
 		CE613393267E972F0054A6C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE613395267E973B0054A6C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE613398267E973B0054A6C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE61339A267E973C0054A6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6133A1267E98450054A6C8 /* HomeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 		CE613390267E972F0054A6C8 /* instagram-app */ = {
 			isa = PBXGroup;
 			children = (
-				CE613391267E972F0054A6C8 /* instagram_appApp.swift */,
+				CE6133A0267E98170054A6C8 /* Views */,
+				CE613391267E972F0054A6C8 /* instagram_App.swift */,
 				CE613393267E972F0054A6C8 /* ContentView.swift */,
 				CE613395267E973B0054A6C8 /* Assets.xcassets */,
 				CE61339A267E973C0054A6C8 /* Info.plist */,
@@ -67,6 +70,14 @@
 				CE613398267E973B0054A6C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE6133A0267E98170054A6C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE6133A1267E98450054A6C8 /* HomeFeedView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE613394267E972F0054A6C8 /* ContentView.swift in Sources */,
-				CE613392267E972F0054A6C8 /* instagram_appApp.swift in Sources */,
+				CE613392267E972F0054A6C8 /* instagram_App.swift in Sources */,
+				CE6133A2267E98450054A6C8 /* HomeFeedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
