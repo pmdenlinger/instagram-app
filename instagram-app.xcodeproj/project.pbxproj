@@ -12,6 +12,8 @@
 		CE613396267E973B0054A6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE613395267E973B0054A6C8 /* Assets.xcassets */; };
 		CE613399267E973B0054A6C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE613398267E973B0054A6C8 /* Preview Assets.xcassets */; };
 		CE6133A2267E98450054A6C8 /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A1267E98450054A6C8 /* HomeFeedView.swift */; };
+		CE6133A4267E98790054A6C8 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A3267E98790054A6C8 /* ExploreView.swift */; };
+		CE6133A6267E988E0054A6C8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A5267E988E0054A6C8 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CE613398267E973B0054A6C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE61339A267E973C0054A6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6133A1267E98450054A6C8 /* HomeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
+		CE6133A3267E98790054A6C8 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		CE6133A5267E988E0054A6C8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				CE6133A1267E98450054A6C8 /* HomeFeedView.swift */,
+				CE6133A3267E98790054A6C8 /* ExploreView.swift */,
+				CE6133A5267E988E0054A6C8 /* CameraView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 			files = (
 				CE613394267E972F0054A6C8 /* ContentView.swift in Sources */,
 				CE613392267E972F0054A6C8 /* instagram_App.swift in Sources */,
+				CE6133A4267E98790054A6C8 /* ExploreView.swift in Sources */,
+				CE6133A6267E988E0054A6C8 /* CameraView.swift in Sources */,
 				CE6133A2267E98450054A6C8 /* HomeFeedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
