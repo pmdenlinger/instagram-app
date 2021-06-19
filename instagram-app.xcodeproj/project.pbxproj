@@ -14,6 +14,8 @@
 		CE6133A2267E98450054A6C8 /* HomeFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A1267E98450054A6C8 /* HomeFeedView.swift */; };
 		CE6133A4267E98790054A6C8 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A3267E98790054A6C8 /* ExploreView.swift */; };
 		CE6133A6267E988E0054A6C8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A5267E988E0054A6C8 /* CameraView.swift */; };
+		CE6133A8267E98C80054A6C8 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A7267E98C80054A6C8 /* NotificationsView.swift */; };
+		CE6133AA267E98DF0054A6C8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A9267E98DF0054A6C8 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CE6133A1267E98450054A6C8 /* HomeFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedView.swift; sourceTree = "<group>"; };
 		CE6133A3267E98790054A6C8 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		CE6133A5267E988E0054A6C8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		CE6133A7267E98C80054A6C8 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		CE6133A9267E98DF0054A6C8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				CE6133A1267E98450054A6C8 /* HomeFeedView.swift */,
 				CE6133A3267E98790054A6C8 /* ExploreView.swift */,
 				CE6133A5267E988E0054A6C8 /* CameraView.swift */,
+				CE6133A7267E98C80054A6C8 /* NotificationsView.swift */,
+				CE6133A9267E98DF0054A6C8 /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +166,8 @@
 				CE6133A4267E98790054A6C8 /* ExploreView.swift in Sources */,
 				CE6133A6267E988E0054A6C8 /* CameraView.swift in Sources */,
 				CE6133A2267E98450054A6C8 /* HomeFeedView.swift in Sources */,
+				CE6133AA267E98DF0054A6C8 /* ProfileView.swift in Sources */,
+				CE6133A8267E98C80054A6C8 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
