@@ -21,3 +21,16 @@ struct StoriesView: View {
     }
 }
 
+struct StoryView: View {
+    let imageName: String
+        
+    var body: some View {
+        Image(imageName)
+            .resizable()
+            .aspectRatio(contentMode: .fill)
+            .frame(width: 90, height: 90, alignment: .center)
+            .background(Color.blue)
+            .cornerRadius(45)
+            .padding(3)
+    }
+}
