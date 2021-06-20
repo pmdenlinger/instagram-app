@@ -16,7 +16,7 @@ struct HomeFeedView: View {
                     StoriesView()
                     
                     ForEach(1...5, id: \.self) { num in
-                        PostView(userImageName: "user\(num)"),
+                        PostView(userImageName: "user\(num)",
                         imageName: "image\(num)")
                         .padding(.bottom, 20)
                     }
@@ -55,7 +55,7 @@ struct PostView: View {
                 
                 Text("32 Likes")
                     .font(.system(size: 20)
-                    .foregroundColor(foregroundColor(.link))
+                    .foregroundColor(Color(.link))
                 Spacer()
             }
             .padding()
@@ -102,6 +102,41 @@ struct PostHeaderView: View {
         }
     }
 }
+
+struct PostActionButtonsView: View {
+    var body: some View {
+        HStack {
+//            action buttons: like, comment, share
+            Button(action: {
+//                Like
+            }, label: {
+                Image(systemName: "heart")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 30, height: 30, alignment: .center)
+                    .foregroundColor(Color(.label))
+                })
+            .padding(.trailing, 10)
+            
+            Button(action: {
+//                Like
+            }, label: {
+                Image(systemName: "message")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 30, height: 30, alignment: .center)
+                    .foregroundColor(Color(.label))
+            })
+            .padding(.trailing, 3)
+            
+            Spacer()
+                
+            }
+        .padding()
+        
+        }
+    }
+
 
 struct HomeFeedView_Previews: PreviewProvider {
     static var previews: some View {
