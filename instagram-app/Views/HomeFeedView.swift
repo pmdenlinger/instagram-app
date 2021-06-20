@@ -81,6 +81,28 @@ struct PostView: View {
     
 }
 
+
+struct PostHeaderView: View {
+    var userImageName: String
+    
+    var body: some View {
+        HStack {
+//            user profile picture and username
+            Image(userImageName)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 40, height: 40, alignment: .center)
+                .cornerRadius(20)
+            
+            Text("kanyewest")
+                .foregroundColor(Color.blue)
+                .bold()
+            
+            Spacer()
+        }
+    }
+}
+
 struct HomeFeedView_Previews: PreviewProvider {
     static var previews: some View {
         HomeFeedView()
