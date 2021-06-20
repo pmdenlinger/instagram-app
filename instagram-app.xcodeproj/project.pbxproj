@@ -16,6 +16,7 @@
 		CE6133A6267E988E0054A6C8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A5267E988E0054A6C8 /* CameraView.swift */; };
 		CE6133A8267E98C80054A6C8 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A7267E98C80054A6C8 /* NotificationsView.swift */; };
 		CE6133AA267E98DF0054A6C8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133A9267E98DF0054A6C8 /* ProfileView.swift */; };
+		CE6133AC267EBD510054A6C8 /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6133AB267EBD500054A6C8 /* StoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CE6133A5267E988E0054A6C8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		CE6133A7267E98C80054A6C8 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		CE6133A9267E98DF0054A6C8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CE6133AB267EBD500054A6C8 /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				CE6133A5267E988E0054A6C8 /* CameraView.swift */,
 				CE6133A7267E98C80054A6C8 /* NotificationsView.swift */,
 				CE6133A9267E98DF0054A6C8 /* ProfileView.swift */,
+				CE6133AB267EBD500054A6C8 /* StoriesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6133AC267EBD510054A6C8 /* StoriesView.swift in Sources */,
 				CE613394267E972F0054A6C8 /* ContentView.swift in Sources */,
 				CE613392267E972F0054A6C8 /* instagram_App.swift in Sources */,
 				CE6133A4267E98790054A6C8 /* ExploreView.swift in Sources */,
