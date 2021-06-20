@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StoriesView: View {
-    let data = (1...5).map({ "user\($0}" })
+    let data = (1...5).map( { "user\($0)" } )
         
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -34,3 +34,4 @@ struct StoryView: View {
             .padding(3)
     }
 }
+

@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct HomeFeedView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView {
+                VStack {
+                    StoriesView()
+                    
+                    ForEach(1...5, id: \.self) { num in
+                        PostView(userImageName: "user\(num)"),
+                        imageName: "image\(num)")
+                        .padding(.bottom, 20)
+                    }
+                }
+            }
+            .navigationTitle("Instagram")
+        }
     }
 }
 
